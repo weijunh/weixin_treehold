@@ -1,0 +1,30 @@
+<!--custom-tab-bar/index.wxml-->
+<!--miniprogram/custom-tab-bar/index.wxml-->
+<van-toast id="van-toast" />
+<van-tabbar active="{{ active }}" bind:change="onChange">
+
+	<van-tabbar-item>
+		<image slot="icon" src="../images/tab/space_black.png" mode="aspectFit" style="width: 30px; height: 18px;" />
+		<image slot="icon-active" src="../images/tab/space_light.png" mode="aspectFit" style="width: 30px; height: 18px;" />
+		广场
+	</van-tabbar-item>
+
+	<van-tabbar-item>
+		<image src="../images/add.png" mode="aspectFit" style="width: 60px; height: 36px;" />
+	</van-tabbar-item>
+	<!-- <van-tabbar-item icon="setting-o">服务</van-tabbar-item> -->
+
+	<van-tabbar-item>
+		<image slot="icon" src="../images/tab/my_black.png" mode="aspectFit" style="width: 30px; height: 18px;" />
+		<image slot="icon-active" src="../images/tab/my_light.png" mode="aspectFit" style="width: 30px; height: 18px;" />
+		我的
+	</van-tabbar-item>
+
+
+	<!-- <van-tabbar-item>
+		<image slot="icon" src="https://img.zcool.cn/community/019899569caade6ac725af2397d3fc.gif" mode="aspectFit" style="width: 30px; height: 30px;" />
+		点我充电
+	</van-tabbar-item> -->
+
+
+</van-tabbar>

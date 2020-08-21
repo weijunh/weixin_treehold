@@ -1,0 +1,118 @@
+/**index.wxss**/
+.container {
+  background-color: #D3D3D3;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 5rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rgb(34, 31, 31);
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.userinfo button {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #87CEFA;
+  border-radius: 50%;
+  margin-top: 50rpx;
+}
+
+.INinputheader {
+  width: 50%;
+  height: 30px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  font-size: 14px;
+  margin-top: 7px;
+  position: relative;
+  float: left;
+  margin-left: 12px;
+}
+
+.INsearchicon {
+  position: absolute;
+  left: 12px;
+}
+
+.weui-input {
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 30px;
+  letter-spacing: 0px;
+}
+
+.INtab {
+  text-align: left;
+  margin-left: 12px;
+  color: #fff;
+}
+
+.content {
+  width: 100vw;
+}
+
+.content_item {
+  background-color: #fff;
+  border-bottom: 2rpx solid #E6E6FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  width: 100vw;
+}
+
+.comment {
+  padding-left: 10rpx;
+  font-size: 24rpx;
+}
+
+.pub_time {
+  font-size: 20rpx;
+  padding-left: 10rpx;
+  color: #C0C0C0;
+}
+
+.content_item view {
+  width: 100vw;
+}
+
+.content_item view:nth-child(1) {
+  padding: 0 10rpx;
+}
+
+.content_item view:nth-child(2) {
+  margin-top: 10rpx;
+  padding: 0 10rpx 5rpx;
+}
+
+.zan {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.mini-btn {
+  float: right;
+  margin-right: 20rpx;
+}

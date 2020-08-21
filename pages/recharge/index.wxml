@@ -1,0 +1,19 @@
+<view class="container">
+	<!-- 自定义头部 -->
+	<view class='nav bg-white' style='height:{{navH}}px'>
+		<view class='nav-title'>
+			<view class='navbar' style="height:{{navHeight}}px">
+				<view class='navbar_home'>
+					<image src='../../images/black_back.png' bindtap='backClick'></image>
+					<image src='../../images/home_black.png' bindtap='homeClick'></image>
+				</view>
+				<view class='navbar_title' style="height:{{navHeight}}px">
+					<view>充电页面</view>
+				</view>
+			</view>
+
+		</view>
+	</view>
+
+	<view class="content" style="margin-top:{{navH}}px"></view>
+</view>

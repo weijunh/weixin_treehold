@@ -1,0 +1,20 @@
+<!--pages/list/list.wxml-->
+<view class="container">
+	<view class='nav bg-white' style='height:{{navH}}px'>
+		<view class='nav-title'>
+			<view class='navbar_title' style="height:{{navHeight}}px">
+				<view>列表</view>
+			</view>
+		</view>
+	</view>
+	<view class='content' style="margin-top:{{navH}}px">
+		<image src='../../images/avatar/0.png' class='img' />
+		<image src='../../images/avatar/0.png' class='img' />
+		<image src='../../images/avatar/0.png' class='img' />
+		<image src='../../images/avatar/0.png' class='img' />
+		<image src='../../images/avatar/0.png' class='img' />
+		<image src='../../images/avatar/0.png' class='img' />
+		<image src='../../images/avatar/0.png' class='img' />
+		<image src='../../images/avatar/0.png' class='img' />
+	</view>
+</view>

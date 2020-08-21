@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/myinfo/myinfo",
+    "pages/index/index",
+    "pages/release/release",
+    "pages/service/service",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/recharge/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEFA",
+    "navigationBarTitleText": "powerful",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-toast": "./dist/toast/index"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "电站列表"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "text": "添加"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "服务"
+      }
+    ]
+  }
+}

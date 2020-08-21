@@ -1,0 +1,144 @@
+/**index.wxss**/
+.container {
+  background-color: #D3D3D3;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+
+
+
+.INinputheader {
+  width: 50%;
+  height: 30px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  font-size: 14px;
+  margin-top: 7px;
+  position: relative;
+  float: left;
+  margin-left: 12px;
+}
+
+.INsearchicon {
+  position: absolute;
+  left: 12px;
+}
+
+.weui-input {
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 30px;
+  letter-spacing: 0px;
+}
+
+.INtab {
+  text-align: left;
+  margin-left: 12px;
+  color: #fff;
+}
+
+.address {
+  width: 15%;
+  height: 30px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+}
+
+.address .city {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.address text {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content_item {
+  background-color: #fff;
+  border-bottom: 2rpx solid #E6E6FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  width: 100vw;
+}
+
+.content_item .zan {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.content_item view {
+  margin-left: 10rpx;
+}
+
+.content_item view:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.content_item view:nth-child(1) .avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.content_item view:nth-child(1) view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content_item view:nth-child(1) .nickName {
+  letter-spacing: 5rpx;
+}
+
+.content_item view:nth-child(1) .pubtime {
+  font-size: 22rpx;
+  margin-top: 22rpx;
+}
+
+.content_item view:nth-child(2) {
+  margin-top: 10rpx;
+}
+
+.content_item view:nth-child(3) {
+  margin-top: 20rpx;
+}
+
+.content_item view:nth-child(3) .total_likes {
+  margin-left: 10rpx;
+}

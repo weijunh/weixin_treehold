@@ -1,0 +1,44 @@
+<!--pages/myinfo/myinfo.wxml-->
+<view class="container">
+	<view class='nav bg-white' style='height:{{navH}}px'>
+		<view class='nav-title'>
+			<view class='navbar_title' style="height:{{navHeight}}px">
+				<view>我的信息</view>
+			</view>
+		</view>
+	</view>
+
+	<view class='content' style="margin-top:{{navH}}px">
+		<view class="userinfo">
+			<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信登录 </button>
+			<block wx:else>
+				<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+				<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+			</block>
+		</view>
+		<!-- 座右铭 -->
+		<!-- <view class="usermotto">
+			<text class="user-motto">{{motto}}</text>
+		</view> -->
+
+		<view class="content_item">
+			<view>
+				<text class="comment">
+					我曾经在平安口袋银行申请过信用卡,然后有被平安信用卡的推销人员拦了
+					结果他说不用年费,现在默认莫名其妙收我300大银年费,用着真不舒服
+					发这个吐槽希望大家小心点
+					注:那个推销员好像姓刘,电话15102092445
+				</text>
+				<text class="pub_time">2020-08-19 20:50:52</text>
+			</view>
+
+			<view>
+				<image class="zan" src="../../images/zan_light.png"></image>
+				<text class="total_likes">301</text>
+				<button class="mini-btn" type="warn" size="mini" plain="true" bindtap="delete_comment">删除</button>
+			</view>
+		</view>
+
+	</view>
+
+</view>

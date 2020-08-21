@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-tabbar": "../../dist/tabbar",
+    "van-tabbar-item": "../../dist/tabbar-item"
+  }
+}

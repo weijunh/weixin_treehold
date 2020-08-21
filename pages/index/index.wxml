@@ -1,0 +1,130 @@
+<!--index.wxml-->
+<view class="container">
+	<!-- 自定义头部 -->
+	<view class='nav bg-white' style='height:{{navH}}px'>
+		<view class='nav-title'>
+			<view class="address">
+				<text class="city">东莞</text>
+				<text>∨</text>
+			</view>
+
+			<view class="INinputheader">
+				<icon class="INsearchicon" type="search" size="12" />
+				<input class="weui-input" placeholder="搜索内容" value="{{searchValue}}" bindinput="inputEdit" data-name="searchValue" />
+			</view>
+		</view>
+	</view>
+
+	<view class='content' style="margin-top:{{navH}}px">
+		<view class="content_item">
+			<view>
+				<image class="avatar" src="../../images/avatar/0.png"></image>
+				<view>
+					<text class="nickName">小树</text>
+					<text class="pubtime">2020-7-10 21:47:05</text>
+				</view>
+			</view>
+
+			<view>
+				<text class="comment">
+					我曾经在平安口袋银行申请过信用卡,然后有被平安信用卡的推销人员拦了
+					结果他说不用年费,现在默认莫名其妙收我300大银年费,用着真不舒服
+					发这个吐槽希望大家小心点
+					注:那个推销员好像姓刘,电话15102092445
+				</text>
+			</view>
+
+			<view>
+				<image class="zan" src="../../images/zan_light.png"></image>
+				<text class="total_likes">301</text>
+			</view>
+		</view>
+
+		<view class="content_item">
+			<view>
+				<image class="avatar" src="../../images/avatar/0.png"></image>
+				<text class="nickName">王者峡谷</text>
+			</view>
+
+			<view>
+				<text class="comment">吐槽:东莞的公交系统不敢恭维啊</text>
+			</view>
+
+			<view>
+				<image class="zan" src="../../images/zan.png"></image>
+				<text class="total_likes">200</text>
+			</view>
+		</view>
+
+		<view class="content_item">
+			<view>
+				<image class="avatar" src="../../images/avatar/0.png"></image>
+				<text class="nickName">high皮</text>
+			</view>
+
+			<view>
+				<text class="comment">
+				东莞的地铁建设好慢啊
+				</text>
+			</view>
+
+			<view>
+				<image class="zan" src="../../images/zan.png"></image>
+				<text class="total_likes">28</text>
+			</view>
+		</view>
+
+		<view class="content_item">
+			<view>
+				<image class="avatar" src="../../images/avatar/0.png"></image>
+				<text class="nickName">啦啦啦啦啦</text>
+			</view>
+
+			<view>
+				<text class="comment">我是来吃瓜的</text>
+			</view>
+
+			<view>
+				<image class="zan" src="../../images/zan.png"></image>
+				<text class="total_likes">8</text>
+			</view>
+		</view>
+
+		<view class="content_item">
+			<view>
+				<image class="avatar" src="../../images/avatar/0.png"></image>
+				<text class="nickName">吃瓜群众</text>
+			</view>
+
+			<view>
+				<text class="comment">
+					这个吐槽希望能够一直维护下去,把在东莞踩过的坑发出来,大家可以避避坑
+				</text>
+			</view>
+
+			<view>
+				<image class="zan" src="../../images/zan.png"></image>
+				<text class="total_likes">2888</text>
+			</view>
+		</view>
+
+		<view class="content_item">
+			<view>
+				<image class="avatar" src="../../images/avatar/0.png"></image>
+				<text class="nickName">用户名称</text>
+			</view>
+
+			<view>
+				<text class="comment">我是来吃瓜的吃瓜得到不是把你十岁啊
+				我是来吃瓜的吃瓜得到不是把你十岁啊
+				我是来吃瓜的吃瓜得到不是把你十岁啊</text>
+			</view>
+
+			<view>
+				<image class="zan" src="../../images/zan.png"></image>
+				<text class="total_likes">2888</text>
+			</view>
+		</view>
+	</view>
+
+</view>

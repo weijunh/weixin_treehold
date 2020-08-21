@@ -1,0 +1,24 @@
+<view class="container">
+	<!-- 自定义头部 -->
+	<view class='nav bg-white' style='height:{{navH}}px'>
+		<view class='nav-title'>
+			<view class='navbar' style="height:{{navHeight}}px">
+				<view class='navbar_home'>
+					<image src='../../images/black_back.png' bindtap='backClick'></image>
+					<image src='../../images/home_black.png' bindtap='homeClick'></image>
+				</view>
+				<view class='navbar_title' style="height:{{navHeight}}px">
+					<view>发布内容</view>
+				</view>
+			</view>
+
+		</view>
+	</view>
+
+	<view class="content" style="margin-top:{{navH}}px">
+		<form class="form" bindsubmit="bindFormSubmit">
+			<textarea class="content_text" placeholder="...请输入发布的内容" maxlength="-1" name="textarea" />
+			<button type="primary" form-type="submit"> 发布 </button>
+    </form>
+	</view>
+</view>

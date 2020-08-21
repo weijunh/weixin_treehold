@@ -1,0 +1,16 @@
+.content {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content_text {
+  width: 95vw;
+  border: 1rpx solid #E6E6FA;
+  border-bottom-left-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  margin: 20rpx;
+}

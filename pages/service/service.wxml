@@ -1,0 +1,68 @@
+<!--pages/service.wxml-->
+<view class="service">
+	<!-- 自定义头部 -->
+	<view class='nav bg-white' style='height:{{navH}}px'>
+		<view class='nav-title'>
+			<view class='navbar' style="height:{{navHeight}}px">
+				<!-- <view class='navbar_home'>
+					<image src='../../images/black_back.png' bindtap='backClick'></image>
+					<image src='../../images/home_black.png' bindtap='homeClick'></image>
+				</view> -->
+				<view class='navbar_title' style="height:{{navHeight}}px">
+					<view>我的服务</view>
+				</view>
+			</view>
+
+		</view>
+	</view>
+
+	<view class='content' style="margin-top:{{navH}}px">
+		<van-grid square column-num="3" gutter="{{ 20 }}">
+			<van-grid-item use-slot link-type="navigateTo" url="/pages/recharge/index">
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				充值
+			</van-grid-item>
+
+			<van-grid-item use-slot>
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				客服电话
+			</van-grid-item>
+
+			<van-grid-item use-slot>
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				绑定Vin
+			</van-grid-item>
+
+			<van-grid-item use-slot>
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				我的充电
+			</van-grid-item>
+
+			<van-grid-item use-slot>
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				我的订单
+			</van-grid-item>
+
+			<van-grid-item use-slot>
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				我的电卡
+			</van-grid-item>
+
+			<van-grid-item use-slot>
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				申请发票
+			</van-grid-item>
+
+			<van-grid-item use-slot>
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				添加电卡
+			</van-grid-item>
+
+			<van-grid-item use-slot>
+				<image style="width: 100%; height: 90px;" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2612266622,2490512485&fm=26&gp=0.jpg" />
+				修改密码
+			</van-grid-item>
+		</van-grid>
+	</view>
+
+</view>

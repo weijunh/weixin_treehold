@@ -1,0 +1,143 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* 自定义顶部栏高度 */
+.nav {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar_back {
+  padding: 0 32rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar_back image {
+  width: 21rpx;
+  height: 34rpx;
+}
+
+.navbar_title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.navbar_title view {
+  width: 40%;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 38rpx;
+}
+
+
+.nav-title {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  font-family: PingFang-SC-Medium;
+  font-size: 36rpx;
+  letter-spacing: 2px;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.navbar_title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.nav .back {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 15px;
+}
+
+.bg-white {
+  background-color: #87CEFA;
+}
+
+.bg-gray {
+  background-color: #f7f7f7;
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.navbar_home {
+  margin-top: 8px;
+  margin-left: 16rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 33rpx;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 10rpx 0;
+}
+
+.navbar_home image:first-child {
+  width: 21rpx;
+  height: 34rpx;
+  padding: 0 32rpx;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar_home image:last-child {
+  width: 37rpx;
+  height: 35rpx;
+  padding: 0 32rpx;
+}
+
+/* .content {
+  margin-top: 50px;
+} */
